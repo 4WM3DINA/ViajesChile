@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: auto !important;
+}
+
+/* Body */
+
+body {
+    background-color: black;
+}
+
+/* Navbar */
+
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* Carousel */
+
+/* Aquí intenté ajustar el view height de los carousel items para que ocuparan sólo el
+alto de la pantalla y la sección de NOSOTROS empezara justo debajo sin necesidad de scrollear parte de la imagen.
+Me resulta pero cuando hay transición de un item al siguiente el alto de la imagen vuelve a ser el completo y tapa la sección. */
+
+/* .carousel, .item, .active {
+    height:100vh;
+} */
+
+/* Nosotros */
+
+#Nosotros h2{
+    font-weight: 400;
+}
+  
+#Nosotros i{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#Nosotros p{
+    font-weight: 300;
+}
+
+/* Destacados */
+
+#Destacados .image-top {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Destacados .card-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+
+}
+
+#Destacados .card-text {
+    font-family: 'Raleway', serif;
+    font-size: 1rem;
+    font-weight: 300;
+
+
+}
+
+/* Contacto */
+
+#Contacto label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+#Contacto p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* Footer */
+
+footer h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+footer a {
+color: white;
+text-decoration: none;
+}
+
